@@ -1,0 +1,19 @@
+[2023-05-09 17:02:21] local.ERROR: There are no commands defined in the "serve" namespace. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\NamespaceNotFoundException(code: 0): There are no commands defined in the \"serve\" namespace. at C:\\Users\\20201101110068\\Documents\\projetolivraria\\escola-api\\vendor\\symfony\\console\\Application.php:624)
+[stacktrace]
+#0 C:\\Users\\20201101110068\\Documents\\projetolivraria\\escola-api\\vendor\\symfony\\console\\Application.php(675): Symfony\\Component\\Console\\Application->findNamespace('serve')
+#1 C:\\Users\\20201101110068\\Documents\\projetolivraria\\escola-api\\vendor\\symfony\\console\\Application.php(259): Symfony\\Component\\Console\\Application->find('serve:8001')
+#2 C:\\Users\\20201101110068\\Documents\\projetolivraria\\escola-api\\vendor\\symfony\\console\\Application.php(171): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\Users\\20201101110068\\Documents\\projetolivraria\\escola-api\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(102): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\Users\\20201101110068\\Documents\\projetolivraria\\escola-api\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(155): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 C:\\Users\\20201101110068\\Documents\\projetolivraria\\escola-api\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 {main}
+"} 
+[2023-05-09 17:04:18] local.ERROR: Command "8001" is not defined. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"8001\" is not defined. at C:\\Users\\20201101110068\\Documents\\projetolivraria\\escola-api\\vendor\\symfony\\console\\Application.php:694)
+[stacktrace]
+#0 C:\\Users\\20201101110068\\Documents\\projetolivraria\\escola-api\\vendor\\symfony\\console\\Application.php(259): Symfony\\Component\\Console\\Application->find('8001')
+#1 C:\\Users\\20201101110068\\Documents\\projetolivraria\\escola-api\\vendor\\symfony\\console\\Application.php(171): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 C:\\Users\\20201101110068\\Documents\\projetolivraria\\escola-api\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(102): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\Users\\20201101110068\\Documents\\projetolivraria\\escola-api\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(155): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\Users\\20201101110068\\Documents\\projetolivraria\\escola-api\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
